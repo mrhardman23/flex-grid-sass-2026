@@ -41,6 +41,23 @@ nav {
 nav ul {
   display: flex;
   flex-wrap: wrap;
+  /* 
+    This will align our nav ul li's to be centered horizontally
+    inside their rows. 
+  */
+  justify-content: center;
+
+  /* 
+    This will align our nav ul li's to be centered vertically 
+    inside their rows.
+  */
+  align-items: center;
+
+  /*
+    This will align our rows inside the nav ul to be centered within
+    the whole flex container. 
+  */
+  align-content: center;
 
   list-style: none;
 
